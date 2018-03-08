@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TabbarVC.h
 //  webFrameWorkDemo
 //
 //  Created by Macx on 2018/3/7.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface TabbarVC : UITabBarController
 
 @end
-

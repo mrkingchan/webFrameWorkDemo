@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7BC131415514344108900D4D /* libPods-webFrameWorkDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 34B43CE20B02134393E6E429 /* libPods-webFrameWorkDemo.a */; };
 		8FC2A160204FBC1900B36725 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC2A15F204FBC1900B36725 /* AppDelegate.m */; };
-		8FC2A163204FBC1900B36725 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC2A162204FBC1900B36725 /* ViewController.m */; };
 		8FC2A166204FBC1900B36725 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FC2A164204FBC1900B36725 /* Main.storyboard */; };
 		8FC2A168204FBC1900B36725 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FC2A167204FBC1900B36725 /* Assets.xcassets */; };
 		8FC2A16B204FBC1900B36725 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FC2A169204FBC1900B36725 /* LaunchScreen.storyboard */; };
 		8FC2A16E204FBC1900B36725 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC2A16D204FBC1900B36725 /* main.m */; };
 		8FC2A178204FBC1900B36725 /* webFrameWorkDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC2A177204FBC1900B36725 /* webFrameWorkDemoTests.m */; };
 		8FC2A183204FBC1900B36725 /* webFrameWorkDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC2A182204FBC1900B36725 /* webFrameWorkDemoUITests.m */; };
+		8FC2A192204FBC4900B36725 /* TabbarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC2A191204FBC4900B36725 /* TabbarVC.m */; };
+		8FC2A195204FBC5F00B36725 /* WebVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC2A194204FBC5F00B36725 /* WebVC.m */; };
+		8FC2A19A204FC09700B36725 /* NaviVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FC2A199204FC09700B36725 /* NaviVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		34B43CE20B02134393E6E429 /* libPods-webFrameWorkDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-webFrameWorkDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DFC23BBC6A5AE55E65EA346 /* Pods-webFrameWorkDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-webFrameWorkDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-webFrameWorkDemo/Pods-webFrameWorkDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		8FC2A15B204FBC1900B36725 /* webFrameWorkDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = webFrameWorkDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FC2A15E204FBC1900B36725 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8FC2A15F204FBC1900B36725 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8FC2A161204FBC1900B36725 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8FC2A162204FBC1900B36725 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8FC2A165204FBC1900B36725 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8FC2A167204FBC1900B36725 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8FC2A16A204FBC1900B36725 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +54,13 @@
 		8FC2A17E204FBC1900B36725 /* webFrameWorkDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = webFrameWorkDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FC2A182204FBC1900B36725 /* webFrameWorkDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = webFrameWorkDemoUITests.m; sourceTree = "<group>"; };
 		8FC2A184204FBC1900B36725 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FC2A190204FBC4800B36725 /* TabbarVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabbarVC.h; sourceTree = "<group>"; };
+		8FC2A191204FBC4900B36725 /* TabbarVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabbarVC.m; sourceTree = "<group>"; };
+		8FC2A193204FBC5F00B36725 /* WebVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebVC.h; sourceTree = "<group>"; };
+		8FC2A194204FBC5F00B36725 /* WebVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebVC.m; sourceTree = "<group>"; };
+		8FC2A198204FC09700B36725 /* NaviVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NaviVC.h; sourceTree = "<group>"; };
+		8FC2A199204FC09700B36725 /* NaviVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NaviVC.m; sourceTree = "<group>"; };
+		CF714EDC02AC9E4FA998EFAF /* Pods-webFrameWorkDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-webFrameWorkDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-webFrameWorkDemo/Pods-webFrameWorkDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BC131415514344108900D4D /* libPods-webFrameWorkDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +89,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01767CFE161E650144F84423 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8DFC23BBC6A5AE55E65EA346 /* Pods-webFrameWorkDemo.debug.xcconfig */,
+				CF714EDC02AC9E4FA998EFAF /* Pods-webFrameWorkDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		24DFB6C26B5FDDDD96302170 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				34B43CE20B02134393E6E429 /* libPods-webFrameWorkDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8FC2A152204FBC1900B36725 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +113,8 @@
 				8FC2A176204FBC1900B36725 /* webFrameWorkDemoTests */,
 				8FC2A181204FBC1900B36725 /* webFrameWorkDemoUITests */,
 				8FC2A15C204FBC1900B36725 /* Products */,
+				01767CFE161E650144F84423 /* Pods */,
+				24DFB6C26B5FDDDD96302170 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +131,9 @@
 		8FC2A15D204FBC1900B36725 /* webFrameWorkDemo */ = {
 			isa = PBXGroup;
 			children = (
+				8FC2A1A3204FD78200B36725 /* BaseMVC */,
 				8FC2A15E204FBC1900B36725 /* AppDelegate.h */,
 				8FC2A15F204FBC1900B36725 /* AppDelegate.m */,
-				8FC2A161204FBC1900B36725 /* ViewController.h */,
-				8FC2A162204FBC1900B36725 /* ViewController.m */,
 				8FC2A164204FBC1900B36725 /* Main.storyboard */,
 				8FC2A167204FBC1900B36725 /* Assets.xcassets */,
 				8FC2A169204FBC1900B36725 /* LaunchScreen.storyboard */,
@@ -132,6 +161,19 @@
 			path = webFrameWorkDemoUITests;
 			sourceTree = "<group>";
 		};
+		8FC2A1A3204FD78200B36725 /* BaseMVC */ = {
+			isa = PBXGroup;
+			children = (
+				8FC2A198204FC09700B36725 /* NaviVC.h */,
+				8FC2A199204FC09700B36725 /* NaviVC.m */,
+				8FC2A190204FBC4800B36725 /* TabbarVC.h */,
+				8FC2A191204FBC4900B36725 /* TabbarVC.m */,
+				8FC2A193204FBC5F00B36725 /* WebVC.h */,
+				8FC2A194204FBC5F00B36725 /* WebVC.m */,
+			);
+			path = BaseMVC;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +181,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8FC2A187204FBC1900B36725 /* Build configuration list for PBXNativeTarget "webFrameWorkDemo" */;
 			buildPhases = (
+				BDE38BDB097F6A686B8BB0F9 /* [CP] Check Pods Manifest.lock */,
 				8FC2A157204FBC1900B36725 /* Sources */,
 				8FC2A158204FBC1900B36725 /* Frameworks */,
 				8FC2A159204FBC1900B36725 /* Resources */,
+				B174566DEF6572E34A85E2A0 /* [CP] Embed Pods Frameworks */,
+				3162E8E795B21E3749FE916D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -260,13 +305,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3162E8E795B21E3749FE916D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-webFrameWorkDemo/Pods-webFrameWorkDemo-resources.sh",
+				"${PODS_ROOT}/LCProgressHUD/LCProgressHUD/LCProgressHUD.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefreshExample/MJRefreshExample/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-webFrameWorkDemo/Pods-webFrameWorkDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B174566DEF6572E34A85E2A0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-webFrameWorkDemo/Pods-webFrameWorkDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDE38BDB097F6A686B8BB0F9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-webFrameWorkDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8FC2A157204FBC1900B36725 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8FC2A163204FBC1900B36725 /* ViewController.m in Sources */,
+				8FC2A19A204FC09700B36725 /* NaviVC.m in Sources */,
+				8FC2A195204FBC5F00B36725 /* WebVC.m in Sources */,
 				8FC2A16E204FBC1900B36725 /* main.m in Sources */,
+				8FC2A192204FBC4900B36725 /* TabbarVC.m in Sources */,
 				8FC2A160204FBC1900B36725 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,11 +530,13 @@
 		};
 		8FC2A188204FBC1900B36725 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DFC23BBC6A5AE55E65EA346 /* Pods-webFrameWorkDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V3WGXX8M8S;
 				INFOPLIST_FILE = webFrameWorkDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.qianft.webFrameWorkDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -442,11 +546,13 @@
 		};
 		8FC2A189204FBC1900B36725 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF714EDC02AC9E4FA998EFAF /* Pods-webFrameWorkDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V3WGXX8M8S;
 				INFOPLIST_FILE = webFrameWorkDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.qianft.webFrameWorkDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
